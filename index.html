@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DOM Manipulation Demo</title>
+  <style>
+    #dynamic-text {
+      color: steelblue;
+      font-weight: bold;
+    }
+    .highlight {
+      background-color: yellow;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to JavaScript DOM assignment</h1>
+  </header>
+
+  <main>
+    <p id="dynamic-text">This text will change after clicking 'change text'!</p>
+    <button onclick="changeText()">Change Text</button>
+    <button onclick="toggleHighlight()">Toggle Highlight</button>
+    <button onclick="addOrRemoveElement()">Add/Remove Element</button>
+
+    <section id="container"></section>
+  </main>
+
+  <footer>
+    <p>Maverick-coder254 did this 2025 DOM Magic</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
